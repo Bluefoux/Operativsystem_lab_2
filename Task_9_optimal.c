@@ -18,7 +18,8 @@ int main(int argc, char *argv[]){
     int used[pages];
     char* line = malloc(line_size);
     char* line2 = malloc(line_size);
-    
+
+    // Initialization
     for(int i =0; i < pages; i++){
         tmp[i] = -1;
         used[i] = 0;
